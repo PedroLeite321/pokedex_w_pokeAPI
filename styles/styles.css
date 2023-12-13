@@ -9,7 +9,7 @@
     font-family: 'Oxanium', sans-serif;
 }
 main    {
-
+    position:relative;
 }
 .pokedex-title  {
     background-color:greenyellow;
@@ -36,24 +36,35 @@ main    {
     height:100vh;
     text-align:center;
     background-color:aqua;
+    position:relative;
+    
    
 }
 .pokedex-img    {
-    width:80%;
-    margin-top:20px;
-    border-radius:20px;
-    max-width:400px;
-    margin-left:auto;
-    margin-right:auto;
+    width:100%;
+    max-width:600px;
+    height:80%;
+    
 }
 /*This gonna take a lot of tweaking */
 .pokemon-img    {
     display:block;
     position:absolute;
-    bottom:43%;
+    bottom:65%;
     left:50%;
     max-width:220px;
     height:15%;
     transform:translate(-55%, 20%);
-    width:30%;
+    width:25%; /*Decrease it in the desktop css*/
+}
+.pokemon-name   {
+    text-transform:capitalize;
+    font-size:1.5em;
+    color:#898787;
+    font-weight:800;
+    position:absolute;
+    top:38%;
+    right:42%;
+    padding:0;
+    margin:0;
 }
