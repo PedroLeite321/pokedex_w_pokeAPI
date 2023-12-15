@@ -82,8 +82,10 @@ main    {
     top:53%;
     right:23%;
     width:60%;
-    height:3%;
+    height:4%;
     border-radius:5px;
+    box-shadow: 2px 9px #2f0d0b;
+    text-indent:5px;
 }
 .pokedex-confirm   {
     position:absolute;
