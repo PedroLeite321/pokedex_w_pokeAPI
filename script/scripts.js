@@ -27,6 +27,7 @@ const pokedex = (() =>   {
             pokemonName.innerHTML = data.name;
             pokemonNumber.innerHTML = data.id;
             pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
+            searchPkm = data.id;
             
         }else{
             pokemonName.innerHTML = "NOT FOUND T-T";
@@ -44,7 +45,6 @@ const pokedex = (() =>   {
 
     }});
     const form = document.querySelector('.form').addEventListener('submit', (search) => {
-
         search.preventDefault()
         renderPkm(pokemonInput.value.toLowerCase());
     });
