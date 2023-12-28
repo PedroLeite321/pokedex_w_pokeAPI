@@ -10,7 +10,7 @@
 <a href="https://github.com/manualdodev/pokedex" target="_blank">Link do github</a>
 
 <h2>PREVIEW</h2>
-<em><a href="https://pedroleite321.github.io/pokedex_w_pokeAPI/" target="_blank"></a></em>
+<em><a href="https://pedroleite321.github.io/pokedex_w_pokeAPI/" target="_blank">Pokedex</a></em>
 </section>
 <section>
 <h1><em>USA-EN</em></h1>
@@ -21,6 +21,6 @@
 <a href="https://github.com/manualdodev/pokedex" target="_blank">Link do github</a>
 
 <h2>PREVIEW</h2>
-<em><a href="https://pedroleite321.github.io/pokedex_w_pokeAPI/" target="_blank"></a></em>
+<em><a href="https://pedroleite321.github.io/pokedex_w_pokeAPI/" target="_blank">pokedex</a></em>
 </section>
 </main>
